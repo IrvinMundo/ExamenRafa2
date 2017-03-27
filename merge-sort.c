@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void merge(int numbers[], int left, int mid, int right);
-
 void print_array(int arr[], int len) {
     int i;
     
@@ -67,13 +65,4 @@ void merge(int numbers[], const int left, const int mid, const int right)
     }
 }
 
-
-int main(int argc, const char * argv[])
-{
-    int len = 7;
-    int arr[] = {23,12,6,5,4,2,21};
-    merge_sort(arr, 0, len - 1);
-    print_array(arr, len);
-    return 0;
-}
 
